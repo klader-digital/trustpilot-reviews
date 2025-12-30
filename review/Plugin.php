@@ -21,10 +21,17 @@ class Plugin {
 	 * The variable name is used as the text domain when internationalizing strings
 	 * of text. Its value should match the Text Domain file header in the main
 	 * plugin file.
-	 * 
+	 *
 	 * @var      string
 	 */
 	protected $plugin_name = 'Trustpilot-review';
+
+	/**
+	 * Plugin version
+	 *
+	 * @var      string
+	 */
+	protected $plugin_version;
 
 	/**
 	 * Instance of this class.

@@ -26,6 +26,16 @@ class Admin {
 	protected $plugin_basename = null;
 
 	/**
+	 * Plugin slug.
+	 */
+	protected $plugin_slug;
+
+	/**
+	 * Plugin version.
+	 */
+	protected $version;
+
+	/**
 	 * Return an instance of this class.
 	 */
 	public static function get_instance() {
